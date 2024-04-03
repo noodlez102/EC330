@@ -1,0 +1,16 @@
+Name & Collaborator Name: Arthur Hua 
+First letter of last name for part b: a
+
+The number of BU-IDs whose digits add to a number greater than 28: 131565
+Number of valid dictionary words that don't end with last letter of last name: 0
+Longest palindrome: 11
+
+
+a) this part is pretty simple, it goes thoough every cahracter in order from the text and checks if it starts with a U, and if it does
+it keeps going down the string and if there is 8 numbers then it checks if it's greater than 28 and ends with a character that isn't a number
+it does this by knowing the ascii values of each character and using if statments.
+
+b)
+
+c)This does it by checking the left and right an seeing if they are the same thing, and if they are it increments the right and decrements the left
+to branch out to see if it's still a palidrome. it also takes into account where it is on a pivot letter or character. Then it returns the biggest one.
